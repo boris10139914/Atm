@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this, LoginActivity.class);
             //startActivity(intent);
             startActivityForResult(intent, REQUEST_LOGIN);
-
         }
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
