@@ -52,6 +52,11 @@ public class MainActivity extends AppCompatActivity {
                     String phone = data.getStringExtra("EXTRA_PHONE");
                     Toast.makeText(this, "Nickname: " + nickname, Toast.LENGTH_SHORT).show();
                     Toast.makeText(this, "Phone: " + phone, Toast.LENGTH_SHORT).show();
+                    getSharedPreferences("atm", MODE_PRIVATE)
+                            .edit()
+                            .putString("NickName",nickname)
+                            .putString("Phone",phone)
+                            .apply();
                     break;
                 }
             case REQUEST_LOGIN:
