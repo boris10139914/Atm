@@ -59,6 +59,8 @@ public class MainActivity extends AppCompatActivity {
                             .apply();
                     break;
                 }
+
+                
             case REQUEST_LOGIN:
                 if (resultCode == RESULT_OK) {
                     String usid = data.getStringExtra("LOGIN_USERID");
