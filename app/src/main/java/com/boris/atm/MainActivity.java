@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+       // startActivity(new Intent(this,Ch8Activity.class));
         if (!logan) {
             Intent intent = new Intent(this, LoginActivity.class);
             //startActivity(intent);
@@ -33,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this, UserInfoActivity.class);
-                startActivityForResult(i, REQUEST_USERINFO);
+                Intent userinfo = new Intent(MainActivity.this, UserInfoActivity.class);
+                startActivityForResult(userinfo, REQUEST_USERINFO);
                 // Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 //.setAction("Action", null).show();
             }
