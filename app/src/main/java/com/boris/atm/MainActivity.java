@@ -58,8 +58,8 @@ public class MainActivity extends AppCompatActivity {
                             .putString("NickName",nickname)
                             .putString("Phone",phone)
                             .apply();
-                    break;
-                }
+
+                }break;
 
 
             case REQUEST_LOGIN:
