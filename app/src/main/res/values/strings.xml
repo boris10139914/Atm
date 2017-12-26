@@ -1,10 +1,36 @@
 <resources>
     <string name="app_name">Atm</string>
     <string name="action_settings">Settings</string>
-   <string-array name="ages">
-       <item>16-25</item>
-       <item>26-35</item>
-       <item>36-45</item>
-       <item>46-55</item>
-   </string-array>
+    <string-array name="ages">
+        <item>16-25</item>
+        <item>26-35</item>
+        <item>36-45</item>
+        <item>46-55</item>
+    </string-array>
+    <string-array name="addr">
+        <item>基隆市</item>
+        <item>新北市</item>
+        <item>台北市</item>
+    </string-array>
+    <string-array name="cities">
+        <item>基隆市</item>
+        <item>新北市</item>
+        <item>台北市</item>
+    </string-array>
+
+    <string-array name="gilong">
+        <item>中正區</item>
+        <item>暖暖區</item>
+        <item>八堵區</item>
+    </string-array>
+    <string-array name="sibe">
+        <item>永和區</item>
+        <item>板橋區</item>
+        <item>新莊區</item>
+    </string-array>
+    <string-array name="taipei">
+        <item>信義區</item>
+        <item>大安區</item>
+        <item>士林區</item>
+    </string-array>
 </resources>

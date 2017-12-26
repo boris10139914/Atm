@@ -1,5 +1,6 @@
 package com.boris.atm;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -57,4 +58,9 @@ public class UserInfoActivity extends AppCompatActivity {
         setResult(RESULT_OK, getIntent());
         finish();
     }
+    public void adress(View view){
+        Intent city =new Intent(this,CityActivity.class);
+        startActivity(city);
+
+        }
 }
